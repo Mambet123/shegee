@@ -79,7 +79,7 @@ body{
             display: flex;
           }
           @media screen and (max-width: 480px){
-              body
+              body{
                   font-size: 14px;
           }
 }
