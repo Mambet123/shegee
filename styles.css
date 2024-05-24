@@ -102,7 +102,12 @@ body{
       font-size: 24px;
        padding: 10px;
   }
-
+@media screen and (max-width: 480px){
+    .img_deg{
+        width:400px;
+        height:250px;
+    }
+}
   nav ul {
       text-align: center;
   }
