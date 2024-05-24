@@ -107,6 +107,10 @@ body{
         width:400px;
         height:250px;
     }
+    .img_pos{
+        width:100px;
+        height:70px;
+    }
 }
   nav ul {
       text-align: center;
