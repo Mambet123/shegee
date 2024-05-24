@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upload Contacts and Location</title>
+<link rel="stylesheet" href="styless.css">
+</head>
+<body>
+<h2>Upload Your Email Contacts and Location</h2>
+<form action="process_upload.php" method="post" enctype="multipart/form-data">
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="location">Location:</label><br>
+    <input type="text" id="location" name="location" required><br><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
