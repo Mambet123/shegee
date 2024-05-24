@@ -85,8 +85,10 @@ body{
           }
 }
 @media screen and (max-width: 768px) {
-  header h1 {
+   h1 {
+       font-size: 24px;
       padding: 10px;
+       
   }
   
   nav ul li {
@@ -96,8 +98,9 @@ body{
 }
 
 @media screen and (max-width: 480px) {
-  header h1 {
+   h1 {
       font-size: 24px;
+       padding: 10px;
   }
 
   nav ul {
