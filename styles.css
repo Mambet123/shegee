@@ -46,6 +46,28 @@ body{
             border-radius: 5px;
             cursor: pointer;
         }
+.slidebtn button{
+width:30px;
+box-sizing: border-box;
+border: solid gray;
+max-width: 90%;
+aspect-ratio: 1;
+display: grid;
+align-content: center;
+justify-content: center;
+align-items: center;
+justify-items: center;
+border-radius: 100%;
+}
+.slidebtn button:hover{
+background-color: rgba(210, 210, 210, 0.809);
+width:40px;
+transition:0.4s;
+}
+.slidebtn button:active{
+transform: scale(0.98);
+box-shadow: 3px 2px 18px 1px rgba(180, 180, 180, 0.34); 
+}
         .img_pos{
             float: right;
             width: 180px;
