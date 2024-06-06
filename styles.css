@@ -1,5 +1,5 @@
 body{
-background-color:rgb(224, 86, 183);
+background-color:rgb(153, 148, 151);
     background-repeat:round;
 }
         nav ul {
@@ -78,7 +78,15 @@ background-color:rgb(224, 86, 183);
           .slides {
             display: flex;
           }
-          
+          @media screen and (max-width: 1440px) {
+              .img_deg{
+            width:1500px;
+            height:700px;
+        }
+  .img_loc{
+            width:1500px;
+            height:700px;
+        }
           
 @media screen and (max-width: 768px) {
   header h1 {
