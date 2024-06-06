@@ -12,30 +12,32 @@ document.querySelectorAll('.nav-link').forEach(function(element) {
             targetContent.classList.add('active');
         }
     })});
- let currentIndex = 0;
+let slideIndex = 0;
+    const slides = document.querySelectorAll('.carousel-slide img');
+    const numVisibleSlides = 4;
+    let totalSlides = slides.length;
+    let remainingSlides = totalSlides - numVisibleSlides;
 
-function moveCarousel(direction) {
-    const carouselContainer = document.querySelector('.carousel-container');
-    const items = document.querySelectorAll('.carousel-item');
-    const totalItems = items.length;
-    const itemsPerSlide = window.innerWidth >= 768 ? 4 : 1;
-
-    currentIndex += direction;
-
-    if (currentIndex < 0) {
-        currentIndex = Math.ceil(totalItems / itemsPerSlide) - 1;
-    } else if (currentIndex >= Math.ceil(totalItems / itemsPerSlide)) {
-        currentIndex = 0;
+    function showSlide() {
+        slides.forEach((slide, index) => {
+            if (index < slideIndex || index >= slideIndex + numVisibleSlides) {
+                slide.style.display = 'none';
+            } else {
+                slide.style.display = 'block';
+            }
+        });
     }
 
-    const offset = -currentIndex * 100 / itemsPerSlide;
-    carouselContainer.style.transform = translateX(${offset}%);
-}
+    function prevSlide() {
+        if (slideIndex > 0) {
+            slideIndex--;
+            showSlide();
+        }
+    }
 
-window.addEventListener('resize', () => {
-    // Adjust carousel when window is resized
-    moveCarousel(0);
-});
-
-// Initial setup
-moveCarousel(0);
+    function nextSlide() {
+        if (slideIndex < remainingSlides) {
+            slideIndex++;
+            showSlide();
+        }
+    }
