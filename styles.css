@@ -58,18 +58,10 @@ background-color:rgb(153, 148, 151);
             width:1500px;
             height:700px;
         }
-.img_loc{
-    width:1500px;
-    height:700px;
         p{
             font-family: Arial, Helvetica, sans-serif;
             color: rgb(8, 1, 26);
         }
-       body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-          }
           
           .slider {
             position: relative;
