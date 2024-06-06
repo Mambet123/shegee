@@ -134,6 +134,10 @@ background-color:rgb(153, 148, 151);
   object-fit: cover;
   margin: 0 15px;
 }
+.carousel-item[{
+    flex:0 0 100%;
+    text-align: center;
+    transition:transform 0.5s ease;
 .carousel-button {
   position: absolute;
   top: 50%;
