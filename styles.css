@@ -55,7 +55,7 @@ background-color:rgb(153, 148, 151);
             text-align: center;
         }
         .img_deg{
-            width:1600px;
+            width:1000px;
             height:700px;
         }
         p{
@@ -84,14 +84,6 @@ background-color:rgb(153, 148, 151);
   header h1 {
       padding: 10px;
   }
-    .img_deg{
-            width:800px;
-            height:400px;
-        }
-  .img_loc{
-            width:800px;
-            height:400px;
-        }
   nav ul li {
       display: block;
       margin-bottom: 10px;
@@ -106,14 +98,6 @@ background-color:rgb(153, 148, 151);
   nav ul {
       text-align: center;
   }
-     .img_deg{
-            width:800px;
-            height:500px;
-        }
-  .img_loc{
-            width:800px;
-            height:500px;
-        }
   nav ul li {
       display: block;
       margin-right: 0;
