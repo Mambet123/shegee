@@ -55,7 +55,7 @@ body{
             text-align: center;
         }
         .img_deg{
-            width:1000px;
+            width:fit-content;
             height:700px;
         }
         p{
