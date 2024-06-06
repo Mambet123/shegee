@@ -4,6 +4,19 @@ document.getElementById('search-button').addEventListener('click', function() {
         performSearch(query);
     }
 });
+document.querySelectorAll('.nav-link').forEach(function(element) {
+    element.addEventListener('click', function(event) {
+        event.preventDefault();
+        var targetId = this.getAttribute('data-target');
+        var targetContent = document.getElementById(targetId);
+        if (targetContent.classList.contains('active')) {
+            targetContent.classList.remove('active');
+        } else {
+            document.querySelectorAll('.content-container').forEach(function(content) {
+                content.classList.remove('active');
+            });
+            targetContent.classList.add('active');
+        }
 
 function performSearch(query) {
     // Here you can add the logic to handle the search task
