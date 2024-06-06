@@ -78,27 +78,19 @@ background-color:rgb(153, 148, 151);
           .slides {
             display: flex;
           }
-          @media screen and (max-width: 1440px) {
-              .img_deg{
-            width:800px;
-            height:450px;
-        }
-  .img_loc{
-            width:800px;
-            height:450px;
-        }
+        
           
 @media screen and (max-width: 768px) {
   header h1 {
       padding: 10px;
   }
     .img_deg{
-            width:1000px;
-            height:700px;
+            width:800px;
+            height:400px;
         }
   .img_loc{
-            width:1000px;
-            height:700px;
+            width:800px;
+            height:400px;
         }
   nav ul li {
       display: block;
