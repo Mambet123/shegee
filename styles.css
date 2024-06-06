@@ -103,7 +103,10 @@ background-color:rgb(224, 86, 183);
             width:800px;
             height:500px;
         }
-
+  .img_loc{
+            width:800px;
+            height:500px;
+        }
   nav ul li {
       display: block;
       margin-right: 0;
