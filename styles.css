@@ -84,7 +84,14 @@ background-color:rgb(224, 86, 183);
   header h1 {
       padding: 10px;
   }
-  
+    .img_deg{
+            width:1600px;
+            height:700px;
+        }
+  .img_loc{
+            width:1700px;
+            height:700px;
+        }
   nav ul li {
       display: block;
       margin-bottom: 10px;
