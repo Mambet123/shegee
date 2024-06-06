@@ -24,11 +24,26 @@ header {
     display: block;
     width: 450px;    
 }
+.search-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
 
-.search-bar{
-    float: left;
-    background-color: white;
-}
+
+        .search-input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+        }
+        .search-button {
+            padding: 8px 12px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
 
 .border{
     position:relative;
