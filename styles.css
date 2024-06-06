@@ -99,6 +99,10 @@ background-color:rgb(224, 86, 183);
   nav ul {
       text-align: center;
   }
+     .img_deg{
+            width:450px;
+            height:250px;
+        }
 
   nav ul li {
       display: block;
