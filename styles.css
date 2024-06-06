@@ -1,5 +1,5 @@
 body{
-    background-color:white;
+    background-color:grey;
     background-repeat:round;
 }
         nav ul {
@@ -56,7 +56,7 @@ button.prev, button.next {
     font-size: 2em;
     padding: 0.5em;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 1;
 }
 
         .img_pos{
